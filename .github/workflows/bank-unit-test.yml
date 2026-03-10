@@ -1,0 +1,18 @@
+name: Bank Unit Test Stage
+on: [push]
+
+jobs:
+  run-bank-tests:
+    run-on: ubuntu-latest
+    steps:
+      - name: 1. Checkout source code
+        uses: action/checkout@v4
+
+      - name: 2. Set up JDK 11
+        uses: action/setup-java@v4
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+
+      - name: 3. Execute Unit Tests via Maven
+        run: mvn test
