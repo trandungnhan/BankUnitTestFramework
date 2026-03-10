@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   run-bank-tests:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: 1. Checkout source code
         uses: action/checkout@v4
