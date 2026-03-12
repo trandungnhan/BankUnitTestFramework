@@ -1,4 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-unit-test-core,com.bank.qa,PaymentService,0,20,0,4,0,4,0,4,0,2
-unit-test-core,com.bank.qa,InsufficientFundsException,0,4,0,0,0,2,0,1,0,1
-unit-test-core,com.bank.qa,AccountService,0,51,0,6,0,14,0,7,0,4
