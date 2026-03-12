@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"5711efe3c92d461cb02ccea1859a1b31","name":"Account Service Unit Tests","statistic":{"failed":0,"broken":0,"skipped":0,"passed":8,"unknown":0,"total":8}},{"uid":"6e2272ea74f32358b454650afe5d8a9e","name":"Payment Service Unit Tests","statistic":{"failed":0,"broken":0,"skipped":0,"passed":4,"unknown":0,"total":4}}]}
