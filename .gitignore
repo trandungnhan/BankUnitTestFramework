@@ -1,0 +1,21 @@
+# Maven build
+target/
+
+# Allure results & reports
+allure-results/
+allure-report/
+allure-history/
+
+# JaCoCo
+jacoco.exec
+
+# Logs
+*.log
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
